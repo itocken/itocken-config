@@ -4,18 +4,18 @@ spring:
   boot:
     admin:
       client:
-        url: http://192.168.1.138:8084
+        url: http://192.168.1.38:8084
   cloud:
     config:
       label: master
       server:
         git:
-          uri: https://github.com/itocken/itoken-config
+          uri: https://github.com/itocken/itoken-config.git
           search-paths: respo
-          username: 137031931
+          username: 137031931@qq.com
           password: Aa241314
   zipkin:
-    base-url: http://192.168.1.138:9411
+    base-url: http://192.168.1.38:9411
 
 server:
   port: 8888
@@ -23,7 +23,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://192.168.1.138:8761/eureka/
+      defaultZone: http://192.168.1.38:8761/eureka/
 
 management:
   endpoint:

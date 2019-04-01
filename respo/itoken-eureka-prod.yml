@@ -7,7 +7,7 @@ server:
 
 eureka:
   instance:
-    hostname: host
+    hostname: 192.168.1.37
   client:
 #    表示是否将自己注册的eureka,因为要架构集群环境,需要将自己注册到集群,所以应该开启
     registerWithEureka: true
